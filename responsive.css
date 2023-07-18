@@ -20,4 +20,29 @@
         max-width: 100%;
         object-fit: cover;
     }
+    /* online image responsive */
+    .online-img{
+        flex-direction: column;
+    }
+    .play-instantly{
+        flex-direction: column;
+       
+    }
+    .play-img{
+       max-width: 100%;
+       height: auto;
+       margin: 0 auto;
+    }
+    .play-img img{
+    width: 400px;
+    }
+    .lady img{
+        height: 150px;
+       width: 200px;
+     }
+    .play-content{
+        margin-bottom: 100px;
+        padding: 0;
+        text-align: center;
+    }
 }
