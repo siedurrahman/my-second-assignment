@@ -200,7 +200,96 @@ position: relative;
     justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+
  }
- .game{
-    d
+ .games{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+ 
+ }
+ .games img{
+    height: 40px;
+    width: 40px;
+ }
+ .games p{
+    margin-left: 10px;
+    padding: 5px;
+ }
+ .games:hover{
+    color:#FF42A5 ;
+    border:1px solid #FF42A5;
+    border-radius: 48px;
+ }
+ /* footer section */
+ .foot{
+    background: #0B0223;
+    width: 1440px;
+    height: 250px;
+    padding: 100px 0;
+    margin: 10px auto;
+    
+     
+ }
+ .footer-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+
+   
+
+    
+ }
+ .footer-nav li{
+    list-style: none;
+display: inline-block;
+margin-left: 20px;
+ }
+ .footer-nav a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+ }
+
+ .footer-icon{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:25px ;
+    
+ }
+
+ .footer-icon, .fa-brands{
+    margin-left: 30px;
+ }
+
+ .policy-nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+
+   
+
+    
+ }
+ .policy-nav li{
+    list-style: none;
+display: inline-block;
+margin-left: 20px;
+ }
+ .policy-nav a{
+
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    font-size: 12px;
+ }
+ .foot p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 9px;
  }
