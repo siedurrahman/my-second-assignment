@@ -132,7 +132,7 @@ background-clip: text;
    
 font-size: 1.5rem;
 font-weight: 700;
-margin-bottom: 7px;
+margin-bottom: 10px;
 
 }
 .funny{
@@ -200,6 +200,7 @@ position: relative;
     justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+gap: 15px;
 
  }
  .games{
@@ -215,7 +216,6 @@ flex-wrap: wrap;
     width: 40px;
  }
  .games p{
-    margin-left: 10px;
     padding: 5px;
  }
  .games:hover{
@@ -262,6 +262,7 @@ margin-left: 20px;
     font-size:25px ;
     
  }
+ 
 
  .footer-icon, .fa-brands{
     margin-left: 30px;
@@ -292,4 +293,8 @@ margin-left: 20px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-size: 9px;
+ }
+
+ .footer-block{
+   display: inline-block;
  }
